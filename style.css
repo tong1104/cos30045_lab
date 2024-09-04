@@ -7,6 +7,15 @@ body {
     margin-bottom: 60px;
 }
 
+.page-lab2-2 body {
+    text-align: center;
+}
+
+.page-lab2-3 body {
+    text-align: center;
+}
+
+
 header {
     background-color: #333;
     color: white;
@@ -93,7 +102,6 @@ a:hover {
     text-decoration: underline;
 }
 
-
 footer {
     background-color: #333;
     color: #fff;
@@ -102,4 +110,31 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* Page-specific Styles for .page-lab1-2 */
+.page-lab1-2 button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.page-lab1-2 button:hover {
+    background-color: #2980b9;
+}
+
+.page-lab1-2 img {
+    display: none; /* Hide initially */
+    margin: 0 auto; /* Center the image */
+}
+
+.page-lab1-2 figcaption {
+    font-size: 14px;
+    color: #777;
+    margin-top: 10px;
 }
